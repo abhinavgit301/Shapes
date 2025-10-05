@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shapes</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+    .shapes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .rectangle {
+        width: 300px;
+        height: 150px;
+        background-color: #008a00;
+        margin: 50px;
+    }
+    .circle {
+        width: 150px;
+        height: 150px;
+        background-color: #cb0000;
+        border-radius: 50%;
+        margin: 50px;
+    }
+    .square {
+        width: 150px;
+        height: 150px;
+        background-color: #0400ff;
+        margin: 50px;
+    }
+    .triangle {
+        width: 0;
+        height: 0;
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-bottom: 200px solid #5f008e;
+        margin: 50px;
+    }
+    .diamond {
+        width: 150px;
+        height: 150px;
+        background-color: #067555;
+        transform: rotate(45deg);
+        margin: 50px;
+    }
+</style>
+<body>
+    <h1>Shapes</h1>
+    <div class="shapes">
+        <div class="square"></div>
+        <div class="rectangle"></div>
+        <div class="circle"></div>
+        <div class="triangle"></div>
+        <div class="diamond"></div>
+    </div>
+</body>
+</html>
